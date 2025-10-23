@@ -1,4 +1,3 @@
-
 'use client';
 
 import Image from 'next/image';
@@ -21,13 +20,13 @@ export function HeroSection({ id }: HeroSectionProps) {
     <section id={id} className="text-center">
       <div className="container mx-auto flex flex-col items-center gap-8">
         <MotionDiv>
-            <div className="w-48 h-48 md:w-56 md:h-56 rounded-full border-4 border-primary/50 flex items-center justify-center overflow-hidden shadow-lg animate-pulse-glow bg-background">
+            <div className="w-40 h-40 md:w-48 md:h-48 rounded-full border-4 border-primary/50 flex items-center justify-center overflow-hidden shadow-lg animate-pulse-glow bg-background mt-14">
               {portfolioData.profileImageUrl ? (
                 <Image
                   src={portfolioData.profileImageUrl}
                   alt={portfolioData.name}
-                  width={224}
-                  height={224}
+                  width={192}
+                  height={192}
                   className="object-cover w-full h-full"
                 />
               ) : (
