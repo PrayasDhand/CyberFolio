@@ -62,9 +62,9 @@ export const portfolioSchema = z.object({
 
 export const initialPortfolioData: z.infer<typeof portfolioSchema> = {
   "name": "Prayas Dhand",
-  "title": "Full Stack Engineer & Android Developer",
-  "summary": "Versatile Full Stack Engineer and Android Developer with a passion for building robust applications and seamless user experiences, from back-end services to mobile interfaces.",
-  "about": "As a software engineer, I thrive on tackling challenges across the full technology stack. My expertise spans from creating scalable back-end systems with .NET and cloud solutions with Azure, to developing intuitive front-ends with Angular. On the mobile front, I am proficient in crafting beautiful, native-like experiences with Jetpack Compose, Flutter, and React Native. I am driven by clean code, agile practices, and the constant pursuit of learning new technologies to build what's next.",
+  "title": "Full Stack Engineer & Mobile App Developer",
+  "summary": "With a passion for crafting robust applications and seamless user experiences, I excel as a versatile full-stack engineer and Mobile app developer, bridging back-end services to mobile interfaces. Leveraging cutting-edge tech like ASP. Net, Angular, Kotlin, Jetpack Compose and cloud platforms, I architect scalable solutions that drive innovation-boosting performance by 50%, enhancing user retention, and delivering pixel-perfect apps that wow on every device. Let's collaborate to turn bold ideas into extraordinary digital realities!",
+  "about": "As a software engineer, I thrive on conquering challenges across the entire tech stack, from architecting scalable back-end systems with .NET and Azure cloud solutions to designing intuitive front-ends with Angular that dazzle users. On the mobile side, I'm a wizard at building stunning, native-like experiences using Kotlin, Jetpack Compose, Flutter, and React Native-apps that feel magical and perform flawlessly. Fueled by a commitment to clean code, agile mastery, and an insatiable hunger for cutting-edge tech, I relentlessly innovate to build what's next. Let's turn bold visions into reality! 🚀",
   "email": "prayasdhand13@gmail.com",
   "github": "https://github.com/PrayasDhand",
   "linkedin": "https://www.linkedin.com/in/prayas-dhand-4253b6204/",
@@ -102,7 +102,7 @@ export const initialPortfolioData: z.infer<typeof portfolioSchema> = {
   ],
   "experience": [
     {
-      "role": "Android Developer",
+      "role": "Microsoft Full Stack Engineer | Android Developer",
       "company": "Hexaware Technologies",
       "duration": "2023-2025",
       "description": "- Built and shipped several high-quality Android apps using Jetpack Compose, Flutter, and React Native.\n- Reached thousands of users on the Google Play Store.\n- Collaborated with designers to implement pixel-perfect UIs."
